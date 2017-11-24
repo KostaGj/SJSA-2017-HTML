@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	
 }
 .holder{
 	width: 940px;
@@ -34,7 +34,7 @@ header{
 	width: 530px;
 	height: 40px;
 	float: right;
-	margin: 60px 0 0 0 ;
+	margin: 60px 0 0 0;
 	padding: 0;
 	list-style-type: none;
 
@@ -81,17 +81,19 @@ header{
 	height: 50px;
 	border-bottom: 1px solid #e5e5e5;
 	font-family: Georgia;
-	float: left;
+
+	
 }
 
 .main-list{
 	width: 940px;
 	height: 435px;	
-	margin: 0;
+	margin: 50px 0 0 0;
 	padding: 0;
 	float:left;
 	font-family: Georgia;
 	border-bottom: 1px solid #e5e5e5;
+	list-style-type: none;
 
 }
 .main-list li{
@@ -152,6 +154,7 @@ header{
 	font-family: Helvetica;
 	font-size: 13px;
 	line-height: 18px;
+
 }
 .main-list a{
 	display: block;
@@ -182,5 +185,107 @@ header{
 }
 .main-list a:hover{
 	border: 1px blue solid;
+}
+.vtora-klasa{
+	width: 940px;
+	height: 340px;
+	float: left;
+	
+	margin: 0;
+	padding: 0;
+
+}
+.vtora-klasa li{
+	width: 300px;
+	height: 340px;
+	float: left;
+	margin: 0 20px 0 0;
+	
+	list-style-type: none;
+}
+.vtora-klasa li:last-child{
+	margin: 0;
+}
+.vtora-klasa li h1{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+	font-size: 18px;
+	font-weight:400;
+	color: #444444;
+	
+	border-bottom: 1px dashed #444444;
+	padding: 0 0 10px 0;
+
+
+}
+.vtora-klasa li p{
+	margin: 10px 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+.social{
+	width: 300px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.social li{
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	float: left;
+}
+.vtora-klasa li h2{
+	padding-bottom: 10px;
+	text-decoration: none;
+	border-bottom: 1px dashed #444444; 
+	font-family: Georgia;
+	font-size: 18px;
+	margin: 45px 0 0 0;
+}
+.vtora-klasa input{
+	width: 280px;
+	height: 33px;
+	border-radius: 5px;
+	border: 1px solid #444444;
+	padding: 0 0 0 10px;
+}
+.kopce{
+	width: 160px !important;
+	height: 30px !important;
+	float: left;
+	background-color: #4e85be;
+	display: block;
+	border: 1px solid #004a80;
+	margin: 11px 0 0 0;
+	color: #fff;
+	text-align: left;
+}
+.kontakt-forma{
+	width: 300px;
+	height: 320px;
+	padding: 10px 0 0 0;
+
+}
+.kontakt-forma input{
+	width: 280px;
+	height: 33px;
+	margin: 0 0 10px;
+	border: 1px solid #444444;
+
+}
+.kontakt-forma textarea{
+	width: 270px;
+	height: 135px;
+	resize: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 14px;
+	margin: 0 0 10px 0;
 }
 
